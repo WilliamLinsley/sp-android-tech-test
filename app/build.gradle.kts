@@ -59,6 +59,12 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    // Hilt
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
+    // Retrofit
+    implementation(libs.retrofit.core)
+    implementation(libs.retrofit.gson)
+    // Okhttp
+    implementation(libs.okhttp.logging)
 }
