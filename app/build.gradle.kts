@@ -74,4 +74,6 @@ dependencies {
     implementation(libs.okhttp.logging)
     // Compose Nav
     implementation(libs.androidx.navigation.compose)
+    // Icons (back arrow)
+    implementation(libs.androidx.compose.material.icons.extended)
 }
