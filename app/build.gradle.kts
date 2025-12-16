@@ -6,6 +6,10 @@ plugins {
     kotlin("kapt")
 }
 
+hilt {
+    enableAggregatingTask = false
+}
+
 android {
     namespace = "com.github.williamlinsley.scottishpowertechtest"
     compileSdk {
@@ -61,6 +65,7 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     // Hilt
     implementation(libs.hilt.android)
+    implementation(libs.androidx.hilt.navigation.compose)
     kapt(libs.hilt.compiler)
     // Retrofit
     implementation(libs.retrofit.core)
