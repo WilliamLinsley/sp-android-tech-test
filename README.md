@@ -26,9 +26,9 @@ This keeps concerns separated and makes the core logic easier to test.
 
 ## Testing
 Basic unit tests are included for the repository and ViewModel to cover:
-- successful data loading
-- error handling
-- simple edge cases
+- Successful data loading
+- Error handling
+- Simple edge cases
 
 ## If I had more time
 I would consider adding UI tests, improving error and loading states in the UI, and introducing a separate domain model if the app were to grow beyond a single feature.
